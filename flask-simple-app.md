@@ -8,7 +8,7 @@ Flask Application
 
 Create a new file app.py inside web and add the following python code
 ```
-From flask import Flask
+from flask import Flask
 app = Flask(__name__)
 
 @app.route('/')
@@ -47,4 +47,8 @@ $ docker build -t flask-sample-one:latest .
 Run the Docker Container
 ```
 $ docker run -d -p 5000:5000 flask-sample-one
+```
+Run:
+```
+docker run 7222436013ac #(image id)
 ```
