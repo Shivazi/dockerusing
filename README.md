@@ -24,6 +24,7 @@ Docker Compose
 https://docs.docker.com/compose/django/
 
 ```
+docker pull shelmangroup/coreos-nvidia-driver-installer
 sudo docker pull nvidia/digits
 docker pull nvidia/cuda
 docker pull tensorflow/tensorflow
