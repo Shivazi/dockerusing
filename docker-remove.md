@@ -6,7 +6,9 @@ You also have:
     sudo docker image prune
     sudo docker network prune
     sudo docker volume prune
-
+```
+sudo docker rmi <image-id>
+```
 For unused images, use docker image prune -a (for removing dangling and ununsed images).
 Warning: 'unused' means "images not referenced by any container": be careful before using -a.
 
