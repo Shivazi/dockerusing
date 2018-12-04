@@ -1,5 +1,15 @@
 # dockerusing
 # Docker Hub
+
+# install docker
+```
+sudo apt-get update
+```
+# uninstall docker
+```
+sudo apt-get remove docker docker-engine docker.io
+```
+
 https://hub.docker.com
 
 https://www.youtube.com/watch?v=lcQfQRDAMpQ&index=2&list=PL9ooVrP1hQOHUKuqGuiWLQoJ-LD25KxI5
