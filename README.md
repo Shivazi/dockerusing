@@ -22,3 +22,13 @@ https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-con
 Docker Compose
 
 https://docs.docker.com/compose/django/
+
+```
+sudo docker pull nvidia/digits
+docker pull nvidia/cuda
+docker pull tensorflow/tensorflow
+
+sudo docker images
+sudo docker run <image-id>
+
+```
