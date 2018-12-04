@@ -4,6 +4,9 @@
 # install docker
 ```
 sudo apt-get update
+sudo apt upgrade
+sudo reboot
+sudo apt install docker.io
 ```
 # uninstall docker
 ```
