@@ -38,7 +38,7 @@ https://docs.docker.com/compose/django/
 
 ```
 docker pull shelmangroup/coreos-nvidia-driver-installer
-sudo docker pull nvidia/cuda
+sudo docker pull nvidia/cuda:8.0-runtime-ubuntu14.04
 sudo docker pull nvidia/digits
 sudo docker pull tensorflow/tensorflow
 sudo docker images
