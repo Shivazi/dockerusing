@@ -43,5 +43,7 @@ sudo docker pull nvidia/digits
 sudo docker pull tensorflow/tensorflow
 sudo docker images
 sudo docker run <image-id>
+# Run DIGITS on host port 5000
+docker run --runtime=nvidia --name digits -d -p 5000:5000 nvidia/digits
 
 ```
